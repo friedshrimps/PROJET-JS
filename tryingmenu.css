@@ -1,0 +1,160 @@
+img{
+    width: 80%;
+    height: 80%;
+    border-radius: 6px;
+}
+img:hover{
+    width: 80.9%;
+    height: 80.5%;
+     
+}
+
+span{    
+    font-weight: 600;
+    color: rgb(0, 145, 241);
+}
+ 
+ 
+
+
+
+
+
+
+
+.grid1{
+     
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.grid{
+    margin-top: 7%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.grid2{
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    
+     
+}
+.menu-item{
+    height: 220px;
+    text-align: center;
+   
+     width: 100%;
+    margin-bottom: 15%;
+}
+ 
+.grid1:hover{
+    cursor: pointer;
+}
+
+
+
+
+ 
+
+input[type='search']:focus{
+    margin-left: 5px;
+    outline: none;
+    font-size: 14px;
+    
+    
+}
+ 
+#search{
+    height: 42px;
+    background-color: rgb(233, 233, 229);
+    border-radius: 3px;
+    border: none;
+    width:100%;
+    padding-left: 7px;
+}
+
+.cm{
+    margin-left: 97%;
+    background: none;
+    border: none;
+}
+.cmw{
+    margin-left: 97.15%;
+    background: none;
+  
+    border: none;
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+     
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+ }
+ 
+.icon{
+    margin-left: 98% ;
+     margin-top: 5px;
+    width: 22px;
+    cursor: pointer;
+}
+ 
+
+ .nav-header{
+    height: 53px;
+    background-color: rgb(243, 243, 243); 
+    border-bottom: 2px solid rgb(196, 196, 196);
+    
+}
+
+.navis{
+    margin-left: 152px ;
+}
+
+.nav-toggle{
+     
+    height: 53px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+
+.nav-toggle:hover{
+    background-color: rgb(189, 189, 189,0.2);
+}
+ 
+.filter-button{
+    
+    font-size:17px;
+     
+    border-radius: 2px;
+    border: 0px;
+    text-align: left;
+    background: none;
+    height: 40px ;
+    width:100%;
+}
+.filter-button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 233, 235, 0.2);
+    
+}
+#p{
+     /* color: white;*/
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 43px;
+}
+ 
+ 
+ 
